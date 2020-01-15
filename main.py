@@ -25,7 +25,8 @@ for i in range(0,count_max):
         count_shiga+=1
         count_biwako+=1
     if (count_max%10==0):
-        print(str(i)+"\t"+str(count_biwako/count_shiga))
+        devisionBy=1 if count_shiga==0 else count_shiga
+        print(str(i)+"\t"+str(count_biwako/devisionBy))
 
 
 print("All Process suceed.\r\n\r\n")    
