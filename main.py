@@ -29,7 +29,7 @@ for i in range(0,count_max):
         print(str(i)+"\t"+str(count_biwako/devisionBy))
 
 
-print("All Process suceed.\r\n\r\n")    
+print("All Process succeed.\r\n\r\n")    
 print("Attempt:"+str(count_max))
 print("Shiga:"+str(count_shiga))
 print("Biwako:"+str(count_biwako))
